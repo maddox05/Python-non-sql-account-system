@@ -2,8 +2,8 @@ import numpy as np
 
 accountinfo =  np.array([["Juan", "John", "Quan", "Game"],
                          ["pass","hello","joke", "lame"],
-                         ["bigg", "bigg", "bigg", "bigg"]],
-                        dtype=str) # do not actually use this for accounts
+                         ["bigg", "bigg", "bigg", "bigg"]], 
+                        dtype=str) # do not actually use this for accounts. bigg is a subsitute for uuids
 user = input("Enter username (Case Sensitive): ")
 passw = input("Enter password (Case Sensitive): ")
 y=0 #this will help find what row the user is in
